@@ -11,13 +11,13 @@ import { NotpagesfoudComponent } from './notpagesfoud/notpagesfound.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NotpagesfoudComponent
+    NotpagesfoudComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
